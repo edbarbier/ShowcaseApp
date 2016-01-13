@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FBSDKCoreKit
+import FBSDKLoginKit
 
 class ViewController: UIViewController {
 
@@ -20,6 +22,23 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func preferredStatusBarStyle() -> UIStatusBarStyle {
+        return UIStatusBarStyle.LightContent
+    }
 
+    
+    @IBAction func fbButnPressed(sender: UIButton) {
+        let facebookLogin = FBSDKLoginManager()
+        
+        facebookLogin.logInWithReadPermissions(["email"], fromViewController: self) { (facebookResult: FBSDKLoginManagerLoginResult!, facebookError: NSError!) -> Void in
+            if facebookError != nil {
+                print("Facebook login failed. Error \(facebookError)")
+            } else {
+                let accessToken = FBSDKAccessToken.currentAccessToken().tokenString
+                print("Successfully logged in with Facebook. \(accessToken)")
+            }
+        }
+    }
 }
+
 

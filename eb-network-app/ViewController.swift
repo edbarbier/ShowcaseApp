@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 
     
     
-    
+    //FACEBOOK LOGIN
     @IBAction func fbButnPressed(sender: UIButton) {
         let facebookLogin = FBSDKLoginManager()
         
@@ -56,6 +56,7 @@ class ViewController: UIViewController {
         }
     }
     
+    //EMAIL PASSWORD LOGIN
     @IBAction func attemptLogin(sender: UIButton!) {
         
         if let email = emailField.text where email != "", let pwd = passwordField.text where pwd != "" {

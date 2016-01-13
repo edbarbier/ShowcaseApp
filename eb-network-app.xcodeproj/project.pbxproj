@@ -25,6 +25,8 @@
 		FCA8528D1C45C7F1002F7DD8 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA8528A1C45C7F1002F7DD8 /* FBSDKCoreKit.framework */; };
 		FCA8528E1C45C7F1002F7DD8 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA8528B1C45C7F1002F7DD8 /* FBSDKLoginKit.framework */; };
 		FCA852911C465880002F7DD8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA852901C465880002F7DD8 /* DataService.swift */; };
+		FCA852931C47113B002F7DD8 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA852921C47113B002F7DD8 /* FeedVC.swift */; };
+		FCA852951C47127F002F7DD8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA852941C47127F002F7DD8 /* PostCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +51,8 @@
 		FCA8528A1C45C7F1002F7DD8 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		FCA8528B1C45C7F1002F7DD8 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		FCA852901C465880002F7DD8 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		FCA852921C47113B002F7DD8 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		FCA852941C47127F002F7DD8 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		FD2A23EFB012291F1EB5A3C4 /* Pods_eb_network_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eb_network_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -136,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				FCA852631C45B75C002F7DD8 /* ViewController.swift */,
+				FCA852921C47113B002F7DD8 /* FeedVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 				FCA852821C45B88E002F7DD8 /* MaterialView.swift */,
 				FCA852841C45BD3A002F7DD8 /* MaterialButton.swift */,
 				FCA852861C45C2A0002F7DD8 /* MaterialTextField.swift */,
+				FCA852941C47127F002F7DD8 /* PostCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -313,6 +319,8 @@
 				FCA852911C465880002F7DD8 /* DataService.swift in Sources */,
 				FCA852641C45B75C002F7DD8 /* ViewController.swift in Sources */,
 				FCA852621C45B75C002F7DD8 /* AppDelegate.swift in Sources */,
+				FCA852931C47113B002F7DD8 /* FeedVC.swift in Sources */,
+				FCA852951C47127F002F7DD8 /* PostCell.swift in Sources */,
 				FCA852811C45B874002F7DD8 /* Constants.swift in Sources */,
 				FCA852831C45B88E002F7DD8 /* MaterialView.swift in Sources */,
 				FCA852851C45BD3A002F7DD8 /* MaterialButton.swift in Sources */,

@@ -73,7 +73,7 @@
                                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="f_logo_small" translatesAutoresizingMaskIntoConstraints="NO" id="Res-Dc-T4V">
                                                 <rect key="frame" x="0.0" y="22" width="65" height="65"/>
                                             </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4KW-Gj-dxu" customClass="MaterialButton" customModule="eb_network_app" customModuleProvider="target">
+                                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4KW-Gj-dxu" customClass="MaterialButton" customModule="eb_network_app" customModuleProvider="target">
                                                 <rect key="frame" x="85" y="38" width="435" height="33"/>
                                                 <color key="backgroundColor" red="0.23137254901960785" green="0.34901960784313724" blue="0.59607843137254901" alpha="1" colorSpace="calibratedRGB"/>
                                                 <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="15"/>
@@ -184,7 +184,7 @@
             </objects>
             <point key="canvasLocation" x="305" y="429"/>
         </scene>
-        <!--Feed-->
+        <!--FeedVC-->
         <scene sceneID="WoS-Ky-fzQ">
             <objects>
                 <viewController id="Vg4-cJ-G3Z" customClass="FeedVC" customModule="eb_network_app" customModuleProvider="target" sceneMemberID="viewController">
@@ -224,29 +224,29 @@
                                                                                 <constraint firstAttribute="width" constant="50" id="qx3-CI-cKS"/>
                                                                             </constraints>
                                                                         </imageView>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="edbarbier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bB-jO-Kiq">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="edbarbier" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8bB-jO-Kiq">
                                                                             <rect key="frame" x="55" y="0.0" width="388" height="50"/>
                                                                             <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="17"/>
                                                                             <color key="textColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
-                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart-full" translatesAutoresizingMaskIntoConstraints="NO" id="fMJ-eM-PaD">
+                                                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="heart-full" translatesAutoresizingMaskIntoConstraints="NO" id="fMJ-eM-PaD">
                                                                             <rect key="frame" x="448" y="0.0" width="50" height="50"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="50" id="meH-oN-oW5"/>
                                                                                 <constraint firstAttribute="height" constant="50" id="y9M-Q4-kdy"/>
                                                                             </constraints>
                                                                         </imageView>
-                                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="066-AB-dZ5">
+                                                                        <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="066-AB-dZ5">
                                                                             <rect key="frame" x="503" y="0.0" width="42" height="50"/>
                                                                             <subviews>
-                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1430" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReS-nu-65y">
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="1430" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ReS-nu-65y">
                                                                                     <rect key="frame" x="0.0" y="0.0" width="42" height="25"/>
                                                                                     <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="18"/>
                                                                                     <color key="textColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                                                                                     <nil key="highlightedColor"/>
                                                                                 </label>
-                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="likes" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDE-ZO-vjG">
+                                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="likes" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDE-ZO-vjG">
                                                                                     <rect key="frame" x="0.0" y="25" width="42" height="25"/>
                                                                                     <fontDescription key="fontDescription" name="NotoSans-Bold" family="Noto Sans" pointSize="16"/>
                                                                                     <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
@@ -311,7 +311,7 @@
                             <constraint firstItem="vAQ-Hh-xIj" firstAttribute="top" secondItem="msu-gx-moy" secondAttribute="bottom" id="hqW-z6-aQG"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Feed" id="ArX-tL-q7j"/>
+                    <navigationItem key="navigationItem" id="ArX-tL-q7j"/>
                     <connections>
                         <outlet property="tableView" destination="msu-gx-moy" id="sJn-VC-ReP"/>
                     </connections>
@@ -328,7 +328,7 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="yzt-bP-kUR">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
-                        <color key="barTintColor" red="0.1058823529" green="0.2901960784" blue="0.53725490200000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="0.23137254900000001" green="0.34901960780000002" blue="0.59607843140000005" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>

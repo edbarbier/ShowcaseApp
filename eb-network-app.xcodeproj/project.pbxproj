@@ -27,6 +27,7 @@
 		FCA852911C465880002F7DD8 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA852901C465880002F7DD8 /* DataService.swift */; };
 		FCA852931C47113B002F7DD8 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA852921C47113B002F7DD8 /* FeedVC.swift */; };
 		FCA852951C47127F002F7DD8 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA852941C47127F002F7DD8 /* PostCell.swift */; };
+		FCA852971C48539B002F7DD8 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA852961C48539B002F7DD8 /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		FCA852901C465880002F7DD8 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		FCA852921C47113B002F7DD8 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
 		FCA852941C47127F002F7DD8 /* PostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		FCA852961C48539B002F7DD8 /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		FD2A23EFB012291F1EB5A3C4 /* Pods_eb_network_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_eb_network_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -159,6 +161,7 @@
 		FCA852761C45B840002F7DD8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				FCA852961C48539B002F7DD8 /* Post.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				FCA852811C45B874002F7DD8 /* Constants.swift in Sources */,
 				FCA852831C45B88E002F7DD8 /* MaterialView.swift in Sources */,
 				FCA852851C45BD3A002F7DD8 /* MaterialButton.swift in Sources */,
+				FCA852971C48539B002F7DD8 /* Post.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

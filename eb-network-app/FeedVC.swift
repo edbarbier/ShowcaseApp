@@ -152,6 +152,7 @@ class FeedVC: UIViewController, UITableViewDataSource, UITableViewDelegate, UIIm
                             })
                         case .Failure(let error):
                         print(error)
+                        print(error)
                         }
                     }
             } else {
